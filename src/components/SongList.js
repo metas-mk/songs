@@ -29,8 +29,6 @@ class SongList extends React.Component {
 // state is the complete state of our Redux store
 // mapStateToProps is naming convention
 const mapStateToProps = state => {
-  console.log(state);
-
   return { songs: state.songs };
 };
 
